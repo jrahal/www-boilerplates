@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2306.189 8592.454 337.231 88.27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ddd;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        font-size: 29px;
+        font-family: SourceSansPro-Semibold, Source Sans Pro;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <g id="Staking" transform="translate(2306.689 8592.954)">
+    <rect id="Rectangle_27" data-name="Rectangle 27" class="cls-1" width="336.231" height="87.269" transform="translate(0 0)"/>
+    <text id="STAKING-2" data-name="STAKING" class="cls-2" transform="translate(109.841 52.688)"><tspan x="0" y="0">STAKING</tspan></text>
+  </g>
+</svg>

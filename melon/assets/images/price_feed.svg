@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2885 5573 130 74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #c9c9c9;
+      }
+
+      .cls-2 {
+        fill: #4a4a4a;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        font-size: 11px;
+        font-family: SourceSerifPro-Regular, Source Serif Pro;
+        letter-spacing: 0.03em;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #6ad058;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #d05858;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+
+      .cls-8 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Price_Feed" data-name="Price Feed" transform="translate(2167 295)">
+    <g id="Base" class="cls-1" transform="translate(718 5278)">
+      <rect class="cls-7" width="130" height="74" rx="3"/>
+      <rect class="cls-8" x="0.5" y="0.5" width="129" height="73" rx="2.5"/>
+    </g>
+    <g id="_01" data-name="01" transform="translate(1)">
+      <text id="BTC" class="cls-2" transform="translate(730 5300)"><tspan x="0" y="0">BTC</tspan></text>
+      <text id="_0.41_" data-name="+ 0.41%" class="cls-3" transform="translate(823 5300)"><tspan x="-39.655" y="0">+ 0.41%</tspan></text>
+      <g id="Arrow" transform="translate(829.423 5301.634) rotate(-90)">
+        <path id="Path_86" data-name="Path 86" class="cls-4" d="M10.564,2.541,8.148.126a.242.242,0,1,0-.368.314.166.166,0,0,0,.027.027l2,2.006H.241a.241.241,0,1,0,0,.482H9.81l-2,2a.242.242,0,1,0,.314.368A.166.166,0,0,0,8.146,5.3l2.418-2.418a.242.242,0,0,0,0-.341Z"/>
+      </g>
+    </g>
+    <g id="_02" data-name="02" transform="translate(1 19)">
+      <text id="ETH" class="cls-2" transform="translate(730 5300)"><tspan x="0" y="0">ETH</tspan></text>
+      <text id="_2.21_" data-name="+ 2.21%" class="cls-3" transform="translate(823 5300)"><tspan x="-39.655" y="0">+ 2.21%</tspan></text>
+      <g id="Arrow-2" data-name="Arrow" transform="translate(829.423 5301.634) rotate(-90)">
+        <path id="Path_86-2" data-name="Path 86" class="cls-4" d="M10.564,2.541,8.148.126a.242.242,0,1,0-.368.314.166.166,0,0,0,.027.027l2,2.006H.241a.241.241,0,1,0,0,.482H9.81l-2,2a.242.242,0,1,0,.314.368A.166.166,0,0,0,8.146,5.3l2.418-2.418a.242.242,0,0,0,0-.341Z"/>
+      </g>
+    </g>
+    <g id="_02-2" data-name="02" transform="translate(1 38)">
+      <text id="XRP" class="cls-2" transform="translate(730 5300)"><tspan x="0" y="0">XRP</tspan></text>
+      <text id="_-_0.14_" data-name="- 0.14%" class="cls-5" transform="translate(823 5300)"><tspan x="-37.246" y="0">- 0.14%</tspan></text>
+      <g id="Arrow-3" data-name="Arrow" transform="translate(834.848 5291) rotate(90)">
+        <path id="Path_86-3" data-name="Path 86" class="cls-6" d="M10.564,2.541,8.148.126a.242.242,0,1,0-.368.314.166.166,0,0,0,.027.027l2,2.006H.241a.241.241,0,1,0,0,.482H9.81l-2,2a.242.242,0,1,0,.314.368A.166.166,0,0,0,8.146,5.3l2.418-2.418a.242.242,0,0,0,0-.341Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

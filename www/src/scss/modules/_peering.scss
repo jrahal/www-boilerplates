@@ -1,0 +1,47 @@
+.peering {
+  display: flex;
+  color: $white;
+  position: relative;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+
+  h2 {
+    @extend %heading-yellow;
+    padding-bottom: 1em;
+  }
+
+  strong {
+    @extend %thin-on-blue;
+  }
+
+  .peering--image {
+    background: url('../img/svg/bg-radiotower-globe.svg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: none;
+    padding: 0;
+    background-size: cover;
+  }
+
+  p {
+    @extend %text-on-blue;
+  }
+
+  h4 {
+    @extend %thin-on-blue;
+  }
+
+  @include breakpoint(600px) {
+
+    .peering--info {
+      width: 50%;
+      margin-left: 0;
+      padding: 3% 0;
+    }
+    .peering--image {
+      display: block;
+      width: 30%;
+      opacity: .5;
+    }
+  }
+}

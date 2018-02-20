@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2354 3951 503.937 335.937">
+  <defs>
+    <style>
+      .cls-1, .cls-4, .cls-7 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #c9c9c9;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #171717;
+        font-family: SourceSerifPro-Regular, Source Serif Pro;
+        letter-spacing: 0.03em;
+      }
+
+      .cls-2 {
+        font-size: 17px;
+      }
+
+      .cls-3 {
+        font-size: 15px;
+      }
+
+      .cls-5, .cls-8 {
+        fill: #c9c9c9;
+      }
+
+      .cls-6, .cls-8 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Traditional" transform="translate(1987 32.021)">
+    <g id="_01" data-name="01" transform="translate(554.282 3919)">
+      <g id="Base" class="cls-1" transform="translate(-0.282 -0.021)">
+        <circle class="cls-6" cx="58.469" cy="58.469" r="58.469"/>
+        <circle class="cls-7" cx="58.469" cy="58.469" r="57.969"/>
+      </g>
+      <text id="Custodian" class="cls-2" transform="translate(58.718 63.979)"><tspan x="-40.18" y="0">Custodian</tspan></text>
+    </g>
+    <g id="_02" data-name="02" transform="translate(367 3960.775)">
+      <g id="Base-2" data-name="Base" class="cls-1" transform="translate(0 0.204)">
+        <circle class="cls-6" cx="58.469" cy="58.469" r="58.469"/>
+        <circle class="cls-7" cx="58.469" cy="58.469" r="57.969"/>
+      </g>
+      <text id="Fund_Admin" data-name="Fund
+Admin" class="cls-2" transform="translate(58 53.204)"><tspan x="-20.434" y="0">Fund</tspan><tspan x="-26.656" y="24">Admin</tspan></text>
+    </g>
+    <g id="_03" data-name="03" transform="translate(423.469 4137.776)">
+      <g id="Base-3" data-name="Base" class="cls-1" transform="translate(-0.469 0.203)">
+        <circle class="cls-6" cx="58.469" cy="58.469" r="58.469"/>
+        <circle class="cls-7" cx="58.469" cy="58.469" r="57.969"/>
+      </g>
+      <text id="Risk_Management" data-name="Risk
+Management" class="cls-3" transform="translate(58.532 53.203)"><tspan x="-15.075" y="0">Risk</tspan><tspan x="-45.87" y="21">Management</tspan></text>
+    </g>
+    <g id="_04" data-name="04" transform="translate(563.888 4077.162)">
+      <g id="Base-4" data-name="Base" class="cls-1" transform="translate(1.112 1.816)">
+        <circle class="cls-6" cx="58.469" cy="58.469" r="58.469"/>
+        <circle class="cls-7" cx="58.469" cy="58.469" r="57.969"/>
+      </g>
+      <text id="Operations_Team" data-name="Operations
+Team" class="cls-2" transform="translate(59.112 54.816)"><tspan x="-44.225" y="0">Operations</tspan><tspan x="-21.497" y="24">Team</tspan></text>
+    </g>
+    <g id="_05" data-name="05" transform="translate(747.046 3955.802)">
+      <g id="Base-5" data-name="Base" class="cls-1" transform="translate(-0.046 0.177)">
+        <circle class="cls-6" cx="58.469" cy="58.469" r="58.469"/>
+        <circle class="cls-7" cx="58.469" cy="58.469" r="57.969"/>
+      </g>
+      <text id="Auditor" class="cls-2" transform="translate(58.954 64.177)"><tspan x="-30.243" y="0">Auditor</tspan></text>
+    </g>
+    <g id="_06" data-name="06" transform="translate(754.355 4116.591)">
+      <g id="Base-6" data-name="Base" class="cls-4" transform="translate(-0.354 1.388)">
+        <path class="cls-6" d="M58.469,0A58.469,58.469,0,1,1,0,58.469,58.469,58.469,0,0,1,58.469,0Z"/>
+        <path class="cls-8" d="M 58.46860885620117 115.9372253417969 C 66.22727203369141 115.9372253417969 73.75330352783203 114.4179000854492 80.83768463134766 111.4214706420898 C 84.24271392822266 109.9812545776367 87.52694702148438 108.1986236572266 90.59915924072266 106.1230850219727 C 93.64244079589844 104.0670852661133 96.50424194335938 101.7058715820312 99.10505676269531 99.10505676269531 C 101.7058715820312 96.50424194335938 104.0670852661133 93.64244079589844 106.1230850219727 90.59915924072266 C 108.1986236572266 87.52694702148438 109.9812545776367 84.24271392822266 111.4214706420898 80.83768463134766 C 114.4179000854492 73.75330352783203 115.9372253417969 66.22727203369141 115.9372253417969 58.46860885620117 C 115.9372253417969 50.7099609375 114.4179000854492 43.18391799926758 111.4214706420898 36.09954833984375 C 109.9812545776367 32.69451522827148 108.1986236572266 29.41027069091797 106.1230850219727 26.33806991577148 C 104.0670852661133 23.2947940826416 101.7058715820312 20.43299293518066 99.10505676269531 17.83217811584473 C 96.50424194335938 15.23134708404541 93.64244079589844 12.87014770507812 90.59915924072266 10.81414699554443 C 87.52694702148438 8.738609313964844 84.24271392822266 6.955977916717529 80.83768463134766 5.515762805938721 C 73.75330352783203 2.519331932067871 66.22727203369141 1.000008821487427 58.46860885620117 1.000008821487427 C 50.7099609375 1.000008821487427 43.18391799926758 2.519331932067871 36.09954833984375 5.515762805938721 C 32.69451522827148 6.955977916717529 29.41027069091797 8.738609313964844 26.33806991577148 10.81414699554443 C 23.2947940826416 12.87014770507812 20.43299293518066 15.23134708404541 17.83217811584473 17.83217811584473 C 15.23134708404541 20.43299293518066 12.87014770507812 23.2947940826416 10.81414699554443 26.33806991577148 C 8.738609313964844 29.41027069091797 6.955977916717529 32.69451522827148 5.515762805938721 36.09954833984375 C 2.519331932067871 43.18391799926758 1.000008821487427 50.7099609375 1.000008821487427 58.46860885620117 C 1.000008821487427 66.22727203369141 2.519331932067871 73.75330352783203 5.515762805938721 80.83768463134766 C 6.955977916717529 84.24271392822266 8.738609313964844 87.52694702148438 10.81414699554443 90.59915924072266 C 12.87014770507812 93.64244079589844 15.23134708404541 96.50424194335938 17.83217811584473 99.10505676269531 C 20.43299293518066 101.7058715820312 23.2947940826416 104.0670852661133 26.33806991577148 106.1230850219727 C 29.41027069091797 108.1986236572266 32.69451522827148 109.9812545776367 36.09954833984375 111.4214706420898 C 43.18391799926758 114.4179000854492 50.7099609375 115.9372253417969 58.46860885620117 115.9372253417969 M 58.46860885620117 116.9372253417969 C 26.17730140686035 116.9372253417969 8.856201020535082e-06 90.75993347167969 8.856201020535082e-06 58.46860885620117 C 8.856201020535082e-06 26.17730140686035 26.17730140686035 8.856201020535082e-06 58.46860885620117 8.856201020535082e-06 C 90.75993347167969 8.856201020535082e-06 116.9372253417969 26.17730140686035 116.9372253417969 58.46860885620117 C 116.9372253417969 90.75993347167969 90.75993347167969 116.9372253417969 58.46860885620117 116.9372253417969 Z"/>
+      </g>
+      <text id="Trading_Desk" data-name="Trading
+Desk" class="cls-2" transform="translate(58.646 53.388)"><tspan x="-31.144" y="0">Trading</tspan><tspan x="-19.389" y="24">Desk</tspan></text>
+    </g>
+    <g id="Group_47" data-name="Group 47" transform="translate(414.523 3978.522)">
+      <g id="Arrow" transform="matrix(0.375, 0.927, -0.927, 0.375, 20.384, 91.621)">
+        <rect id="Line" class="cls-5" width="59.518" height="0.914" transform="translate(9 6.395)"/>
+        <path id="Path_89" data-name="Path 89" class="cls-5" d="M0,13.7.136,0,6.918,6.918Z" transform="translate(62.377 0)"/>
+      </g>
+      <g id="Arrow-2" data-name="Arrow" transform="translate(202.956 61.804) rotate(84)">
+        <rect id="Line-2" data-name="Line" class="cls-5" width="33.802" height="0.914" transform="translate(0 6.395)"/>
+        <path id="Path_89-2" data-name="Path 89" class="cls-5" d="M0,13.7.136,0,6.918,6.918Z" transform="translate(27.661 0)"/>
+      </g>
+      <g id="Arrow-3" data-name="Arrow" transform="translate(122.772 190.441) rotate(-33)">
+        <rect id="Line-3" data-name="Line" class="cls-5" width="29.234" height="0.914" transform="translate(0 6.395)"/>
+        <path id="Path_89-3" data-name="Path 89" class="cls-5" d="M0,13.7.136,0,6.918,6.918Z" transform="translate(23.093 0)"/>
+      </g>
+      <g id="Arrow-4" data-name="Arrow" transform="matrix(0.017, 1, -1, 0.017, 401.348, 100.852)">
+        <rect id="Line-4" data-name="Line" class="cls-5" width="33.802" height="0.914" transform="translate(0 6.395)"/>
+        <path id="Path_89-4" data-name="Path 89" class="cls-5" d="M0,13.7.136,0,6.918,6.918Z" transform="translate(27.661 0)"/>
+      </g>
+      <g id="Arrow-5" data-name="Arrow" transform="translate(262.986 0) rotate(14)">
+        <rect id="Line-5" data-name="Line" class="cls-5" width="68.518" height="0.914" transform="translate(0 6.395)"/>
+        <path id="Path_89-5" data-name="Path 89" class="cls-5" d="M0,13.7.136,0,6.918,6.918Z" transform="translate(62.377 0)"/>
+      </g>
+      <g id="Arrow-6" data-name="Arrow" transform="matrix(0.97, -0.242, 0.242, 0.97, 68.735, 16.764)">
+        <rect id="Line-6" data-name="Line" class="cls-5" width="68.518" height="0.914" transform="translate(0 6.395)"/>
+        <path id="Path_89-6" data-name="Path 89" class="cls-5" d="M0,13.7.136,0,6.918,6.918Z" transform="translate(62.377 0)"/>
+      </g>
+      <g id="Arrow-7" data-name="Arrow" transform="matrix(0.875, 0.485, -0.485, 0.875, 67.563, 64.469)">
+        <rect id="Line-7" data-name="Line" class="cls-5" width="102.32" height="0.914" transform="translate(0 6.395)"/>
+        <path id="Path_89-7" data-name="Path 89" class="cls-5" d="M0,13.7.136,0,6.918,6.918Z" transform="translate(96.179 0)"/>
+      </g>
+      <g id="Arrow-8" data-name="Arrow" transform="matrix(0.719, 0.695, -0.695, 0.719, 282.001, 79.811)">
+        <rect id="Line-8" data-name="Line" class="cls-5" width="158.32" height="0.91" transform="translate(-56.755 6.051)"/>
+        <path id="Path_89-8" data-name="Path 89" class="cls-5" d="M0,13.7.136,0,6.918,6.918Z" transform="translate(96.179 0)"/>
+      </g>
+      <g id="Arrow-9" data-name="Arrow" transform="matrix(0.927, 0.375, -0.375, 0.927, 274.438, 168.092)">
+        <rect id="Line-9" data-name="Line" class="cls-5" width="68.518" height="0.914" transform="translate(0 6.395)"/>
+        <path id="Path_89-9" data-name="Path 89" class="cls-5" d="M0,13.7.136,0,6.918,6.918Z" transform="translate(62.377 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

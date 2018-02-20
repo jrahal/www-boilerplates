@@ -1,0 +1,54 @@
+.footer-imprint {
+  display: flex;
+  padding: 1.5em 0 1em 0;
+
+  .footer-imprint--logo,
+  .footer-imprint--consensys,
+  .footer-imprint--logo {
+    width: 100px;
+    >svg{
+      height: auto;
+      float: right;
+    }
+  }
+
+  .footer-imprint--logo {
+    display: block;
+    background-image: url('../img/svg/infura-logo-footer.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    height: 4em;
+    margin-bottom: 1em;
+
+    @include breakpoint(600px) {
+      display: block;
+      margin-right: 1em;
+      width: 20% !important;
+      margin-bottom: 0;
+    }
+  }
+
+  .footer-imprint--text {
+    margin-left: 1em;
+    @include breakpoint(600px) {
+      width: 70% !important;
+    }
+    p {
+      font-size: 0.9em;
+      line-height: 1.5em;
+    }
+  }
+
+  a.footer-imprint--consensys {
+    height: 4em;
+    background-image: url('../img/svg/consensys-logo.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 0 !important;
+    @include breakpoint(600px) {
+      width: 10% !important;
+    }
+  }
+
+}

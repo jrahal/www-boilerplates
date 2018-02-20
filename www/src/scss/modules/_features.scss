@@ -1,0 +1,120 @@
+.features {
+  text-align: center;
+
+  > h3 {
+    @extend %heading-shadow;
+    padding-top: .5em;
+    padding-bottom: .5em;
+
+    @include breakpoint(480px) {
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .features--list{
+    width: 100%;
+    margin-top: 1em;
+    text-align: left;
+    padding: 0;
+    list-style-type: none;
+    padding-bottom: 2em;
+
+    @include breakpoint(480px) {
+
+      margin-top: 2em;
+    }
+
+    .feature--item {
+      @include clearfix;
+
+      @include breakpoint(660px) {
+        max-width: 47%;
+        margin-left: 3%;
+      }
+
+      //display: flex;
+      //flex-direction: row;
+      //align-items: center;
+      //justify-content: center;
+      //flex-shrink: 2;
+
+      .features--img {
+        margin-bottom: 2em;
+        margin-right: auto;
+        margin-left: auto;
+
+        @include breakpoint(480px) {
+          margin-top: 0em;
+          margin-right: 2em;
+          margin-left: 0;
+        }
+
+      }
+
+      .features--txt {
+        padding-bottom: 1em;
+        > strong {
+          display: block;
+          color: $blue;
+          font-weight: $font-weight-secondary-semiheavy;
+          font-size: 1.1em;
+        }
+        > p {
+          margin-top: .3em;
+          max-width: 100%;
+          color: $gray;
+          line-height: 1.6em;
+          @include breakpoint(480px) {
+            max-width: 75%;
+          }
+        }
+
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+
+        @include breakpoint(480px) {
+          text-align: left;
+          display: block;
+        }
+      }
+
+    }
+  }
+
+
+
+}
+
+
+.features--img {
+
+  @extend .bg-features;
+
+  &.features--img-api {
+    @include sprite($features-api);
+
+  }
+
+  &.features--img-ferryman {
+    @include sprite($features-ferryman);
+  }
+
+  &.features--img-ipfs {
+    @include sprite($features-ipfs);
+  }
+
+  &.features--img-multiclient {
+    @include sprite($features-multiclient);
+  }
+
+  &.features--img-private {
+    @include sprite($features-private);
+  }
+
+  &.features--img-tls {
+    @include sprite($features-tls);
+  }
+}

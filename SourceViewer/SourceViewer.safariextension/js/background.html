@@ -1,0 +1,50 @@
+<script>
+	"use strict";
+
+	function handleMessage(event) {
+		let activeBrowserWindow = safari.application.activeBrowserWindow;
+		let url = activeBrowserWindow.activeTab.url;
+		let index = activeBrowserWindow.tabs.indexOf(activeBrowserWindow.activeTab);
+
+		switch (event.command || event.name) {
+		case "view-page-source":
+			var tab = activeBrowserWindow.openTab();
+			activeBrowserWindow.insertTab(tab, index + 1);
+			tab.url = safari.extension.baseURI + "html/viewer.html?" + encodeURIComponent(url);
+			break;
+
+		case "open-link":
+			var tab = activeBrowserWindow.openTab();
+			activeBrowserWindow.insertTab(tab, index + 1);
+			tab.url = event.message;
+			break;
+
+		case "get-settings":
+			event.target.page.dispatchMessage(event.name, JSON.stringify(safari.extension.settings));
+			break;
+		}
+	}
+	safari.application.addEventListener("command", handleMessage);
+	safari.application.addEventListener("message", handleMessage);
+
+	function handleURL(event) {
+		let url = null;
+		if (event) {
+			if (event.url)
+				url = event.url;
+			else if (event.query)
+				url = event.query;
+		}
+		if (!url || !url.startsWith("view-source:"))
+			return;
+
+		url = url.substring(12).trim();
+		if (!url.startsWith("http://") || !url.startsWith("https://"))
+			url = "http://" + url;
+
+		event.preventDefault();
+		event.target.url = safari.extension.baseURI + "html/viewer.html?" + encodeURIComponent(url);
+	}
+	safari.application.addEventListener("beforeNavigate", handleURL, true);
+	safari.application.addEventListener("beforeSearch", handleURL, true);
+</script>

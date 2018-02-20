@@ -1,0 +1,43 @@
+- [crystal basic](./crystal-basic) – Hello world.
+- [crystal site](./crystal-site) – Larger site.
+- [general dns](./general-dns) – DNS zones and record management.
+- [general ignorefiles](./general-ignorefiles) – Ignore file usage to omit files.
+- [golang api](./golang-api) – REST API example.
+- [golang basic](./golang-basic) – Hello world.
+- [golang basic auth](./golang-basic-auth) – Basic authentication example.
+- [golang basic memory](./golang-basic-memory) – Hello world with max Lambda memory/cpu.
+- [golang cookies](./golang-cookies) – Simple cookies example.
+- [golang form](./golang-form) – Simple form processing.
+- [golang gin](./golang-gin) – Hello World using the Gin framework.
+- [golang slack](./golang-slack) – Slack command for timing a website response.
+- [golang uploads](./golang-uploads) – Simple multi-part form processing.
+- [java gradle spark](./java-gradle-spark) – Hello world.
+- [java gradle springboot](./java-gradle-springboot) – Hello world.
+- [java maven spark](./java-maven-spark) – Hello world.
+- [node 8](./node-8) – Node 8 application using a binary.
+- [node basic](./node-basic) – Hello world.
+- [node basic memory](./node-basic-memory) – Hello world with max memory/cpu.
+- [node crashes](./node-crashes) – Crash recovery from uncaught exceptions.
+- [node env](./node-env) – Environment variable management.
+- [node errors](./node-errors) – Default error pages.
+- [node express](./node-express) – Express application.
+- [node express browserify](./node-express-browserify) – Express application using a bundler to reduce require() time and build size.
+- [node express spawn](./node-express-spawn) – Fun server that let's you spawn commands on the host VM.
+- [node fastify](./node-fastify) – [Fastify](http://www.fastify.io/) application.
+- [node graphql](./node-graphql) – GraphQL server.
+- [node koa](./node-koa) – Koa website.
+- [node logging](./node-logging) – Logging example with plain-text and JSON logs.
+- [node next](./node-next) – Next.js application.
+- [node noconfig](./node-noconfig) – Bare minimal example with zero config.
+- [node spa](./node-spa) – Single page app using React & Neutrino.
+- [python basic](./python-basic) – Hello world.
+- [python bottle](./python-bottle) – A python app using the Bottle microframework.
+- [python django](./python-django) – A simple python example using the Django web framework.
+- [python flask](./python-flask) – A simple python example using the Flask microframework.
+- [static basic](./static-basic) – Basic static site.
+- [static dir](./static-dir) – Basic static site with custom root directory.
+- [static error pages](./static-error-pages) – Custom error pages.
+- [static header](./static-header) – Header injection example, configured in JSON.
+- [static inject](./static-inject) – Script and style injection example, configured in JSON.
+- [static photos](./static-photos) – Simple static photo gallery.
+- [static rewrite](./static-rewrite) – Rewrites and redirection.

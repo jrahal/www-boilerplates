@@ -1,0 +1,11 @@
+<app-header></app-header>
+
+<div id="page" #container [@routeAnimation]="{value:prepRouteState(routerOutlet), params: { height: maxHeight }}" class="route-container">
+    <router-outlet #routerOutlet="outlet"></router-outlet>
+</div>
+
+<div class="footer">
+    <div style="text-align:center;">
+        <a routerLink="/admin" style="color:rgba(255,255,255,.8)">Admin</a>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+.yellow-heading-simple {
+  @extend %heading-yellow;
+  text-align: center;
+  font-weight: 100;
+}
+
+.yellow-heading {
+  $height: 2.15em;
+  &.container-fluid {
+    padding: 0 ;
+  }
+
+  .yellow-heading--wrapper {
+    @extend %bg-yellow;
+    height: 6em;
+  }
+
+
+  .container {
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+
+    h2 {
+      padding-top: 0;
+      font-weight: $font-weight-secondary-semiheavy;
+      letter-spacing: 1px;
+      text-shadow: 0px 1px 1px #ccc;
+
+      &.oneline {
+        padding-top: .5em;
+      }
+
+      @include breakpoint(500px) {
+        padding-top: .5em;
+      }
+    }
+  }
+  &::after {
+    content: '';
+    display: block;
+    height: $height;
+    @extend %bg-yellow-edge;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include breakpoint(1600px) {
+      height: $height+1;
+    }
+  }
+
+  & + div:not(.grid-with-bg) {
+    margin-top: -$height;
+    padding-top: $height;
+
+    @include breakpoint(1600px) {
+      margin-top: -$height - 1;
+    }
+  }
+}

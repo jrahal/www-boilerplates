@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2734 5573 74 74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #c9c9c9;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Compliance" transform="translate(1987 295)">
+    <g id="Base" class="cls-1" transform="translate(747 5278)">
+      <rect class="cls-2" width="74" height="74" rx="3"/>
+      <rect class="cls-3" x="0.5" y="0.5" width="73" height="73" rx="2.5"/>
+    </g>
+    <path id="Path_86" data-name="Path 86" d="M28.307,28.586l-8.3-8.576a13.258,13.258,0,1,0-.837.7l8.3,8.646a.512.512,0,0,0,.418.139.991.991,0,0,0,.418-.139.547.547,0,0,0,0-.767ZM11.713,22.311a10.6,10.6,0,1,1,10.6-10.6,10.593,10.593,0,0,1-10.6,10.6Zm0,0" transform="translate(770 5300)"/>
+  </g>
+</svg>

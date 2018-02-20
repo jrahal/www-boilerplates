@@ -1,0 +1,649 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>fazeZERO - Scalable Blockchain Infrastructure - Ethereum and IPFS</title>
+    <meta name="keywords" content="ethereum, blockchain api, api, ipfs, ethereum api, ipfs api, private ethereum, enterprise ethereum, decentralized, decentralised, dapp, decentralized app, decentralised app, serverless">
+    <meta name="description" content="Ethereum API and IPFS API for building Ethereum blockchain applications on a scalable cloud infrastructure with reliable transaction processing. Supports the original JSON-RPC API including the web3 and eth methods. The Ferryman service provides reverse proxy that filters, caches and re-routes requests, with throttling and logging. You can also use fazeZERO to broadcast signed raw transactions to the Ethereum blockchain.">
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="assets/img/favicons/favicon.ico?v=2">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png?v=2">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png?v=2">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png?v=2">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png?v=2">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png?v=2">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png?v=2">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png?v=2">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png?v=2">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png?v=2">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicons/android-icon-192x192.png?v=2">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png?v=2">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png?v=2">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png?v=2">
+
+    <!-- Open Graph Protocol - Facebook tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Scalable Ethereum API and IPFS access" />
+    <meta property="og:site_name" content="fazeZERO" />
+    <meta property="og:description" content="Build blockchain applications building quickly using scalable and reliable Ethereum and IPFS API service endpoints" />
+    <meta property="og:url" content="https://fazeZERO.io/" />
+    <meta property="og:image" content="https://fazeZERO.io/assets/img/svg/fazeZERO-logo-footer.svg" />
+    <meta property="og:image:type" content="image/svg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="fazeZERO - Scalable Blockchain API for Ethereum and IPFS" />
+    <meta name="twitter:site" content="@fazeZERO_io" />
+    <meta name="twitter:creator" content="@fazeZERO_io" />
+    <meta name="twitter:url" content="https://fazeZERO.io/" />
+    <meta name="twitter:description" content="Building leading open-source tools and services for managing Microservices and APIs" />
+    <meta name="twitter:image" content="https://fazeZERO.io/assets/img/svg/fazeZERO-logo-footer.svg" />
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "fazeZero",
+        "url": "https://fazeZERO.io/",
+        "logo": "https://fazeZERO.io/assets/img/svg/fazeZERO-logo-footer.svg",
+        "sameAs": [
+          "https://www.facebook.com/fazeZEROio",
+          "https://twitter.com/fazeZERO_io",
+          "https://github.com/fazeZERO"
+        ]
+      }
+    </script>
+
+    <!-- Google Analytics -->
+    <link href="//www.google-analytics.com" rel="dns-prefetch">
+    <link href="//ajax.googleapis.com" rel="dns-prefetch">
+
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700|Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="assets/css/style.min.css" rel="stylesheet">
+  </head>
+
+<body>
+  <a name="top"></a>
+  <header class="container-fluid bg-gradient-blue-radial" role="banner">
+    <div class="container header">
+
+      <div class="header--branding">
+        <div class="header--logo">
+          <img src="app/assets/img/svg/infura-logo.svg" class="header--logo--svg svg--fazeZERO-logo logo">
+          <img src="app/assets/img/svg/infura-logo-chinese.svg" class="header--logo--svg svg--fazeZERO-logo logo-chinese">
+          <img src="app/assets/img/svg/infura-logo-trad-chinese.svg" class="header--logo--svg svg--fazeZERO-logo logo-trad-chinese">
+        </div>
+        <h1 class="light">
+          Scalable Blockchain for IoT
+        </h1>
+        <p class="header--mission">
+          Our mission is to provide the world with secure, IoT
+        </p>
+        <a class="btn btn-default btn-lg" href="#how-to" role="button">Get started</a>
+        <div class="branding-stats">
+          <ul class="grid-3">
+            <li class="col">
+              <h1 class="light stats-header">1 Billion</h1>
+              <p class="stats-label">Requests per day</p>
+            </li>
+            <li class="col">
+              <h1 class="light stats-header">120</h1>
+              <p class="stats-label">Unique IPs per min</p>
+            </li>
+            <li class="col">
+              <h1 class="light stats-header">5</h1>
+              <p class="stats-label">Networks</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <nav class="navigation" role="navigation">
+        <h3 class="visually-hidden">Main Navigation</h3>
+        <ul class="nav--list">
+          <li class="nav--list-item">
+            <a href="#how-to">Get started</a>
+          </li>
+          <li class="nav--list-item">
+            <a href="http://status.fazeZERO.io">Status</a>
+          </li>
+          <li class="nav--list-item">
+            <a href="docs/">Docs</a>
+          </li>
+          <li class="nav--list-item">
+            <a href="http://docs.fazeZERO.apiary.io/">API</a>
+          </li>
+          <li class="nav--list-item">
+            <a href="https://blog.fazeZERO.io/">Blog</a>
+          </li>
+          <li class="nav--list-item">
+            <a href="https://twitter.com/fazeZERO_io" class="twitter">
+              <img src="app/assets/img/svg/icon-twitter.svg" class="svg-icon">
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="components">
+      <div class="container-fluid yellow-heading">
+        <div class="yellow-heading--wrapper">
+          <div class="container">
+            <h2>fazeZERO</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-3 bg-full">
+        <div class="container grid">
+          <div class="grid-with-bg grid-3--content services">
+
+            <div class="col bg-blue-light">
+              <div class="services--item">
+                <img src="app/assets/img/svg/icon-ethereum.svg" class="svg--icon-ethereum">
+
+
+                <div class="h3-container">
+                  <h3 class="heavy">BLOCKCHAIN</h3>
+                </div>
+                <p>
+                  For Ethereum dapp developers, fazeZERO<sup>TM</sup> eliminates the need to install, configure, and maintain Ethereum nodes.
+                </p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="services--item">
+                <img src="app/assets/img/svg/icon-services-layer.svg" class="svg--icon-services-layer">
+                <div class="h3-container">
+                  <h3 class="heavy">SERVICE LAYER</h3>
+                </div>
+                <p>
+                  Ferryman<sup>TM</sup> is a software layer that improves reliability and helps fazeZERO scale.
+                </p>
+              </div>
+            </div>
+            <div class="col bg-blue-light">
+              <div class="services--item">
+                <img src="app/assets/img/svg/icon-ipfs.svg" class="svg--icon-ipfs">
+                <div class="h3-container">
+                  <h3 class="heavy">DISTRIBUTED<br>FILESYSTEM</h3>
+                </div>
+                <p>
+                  IPFS enables distributed storage.<br />Access IPFS seamlessly without the hassle of managing the infrastructure on your own.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="mission">
+
+      <div class="bg-blue decentralisation">
+        <div class="container-fluid decentralisation--bg">
+        </div>
+        <div class="decentralisation--text">
+          <h3 class="yellow-heading-simple">Mission</h3>
+          <br/>
+          <h4>
+            fazeZERO<sup>TM</sup> assists the decentralization movement and advances the state of the art by providing ...
+          </h4>
+          <p class="decentralisation--gateway"><strong>A Gateway to Ethereum and IPFS</strong></p>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="container-fluid">
+      <div class="container grid features">
+        <h3>Features</h3>
+          <ul class="features--list grid-2">
+
+            <li class="col feature--item">
+              <div class="features--img features--img-tls"></div>
+              <div class="features--txt">
+                <strong>TLS-enabled Ethereum endpoints</strong>
+                <p>Public endpoints for the Ethereum Mainnet and all testnet networks</p>
+              </div>
+            </li>
+
+            <li class="col feature--item">
+              <div class="features--img features--img-ipfs"></div>
+              <div class="features--txt">
+                <strong>TLS-enabled IPFS gateway</strong>
+                <p>For decentralized storage, with custom reliability features</p>
+              </div>
+            </li>
+
+            <li class="col feature--item">
+              <div class="features--img features--img-api"></div>
+              <div class="features--txt">
+                <strong>Portable Ethereum interface</strong>
+                <p>Fully compatible with the standard JSON-RPC API and popular web3 libraries</p>
+              </div>
+            </li>
+
+            <li class="col feature--item">
+              <div class="features--img features--img-ferryman"></div>
+              <div class="features--txt">
+                  <strong>“Ferryman” Service Layer</strong>
+                  <p>A reverse proxy that helps with scaling and reliability</p>
+              </div>
+            </li>
+
+            <li class="col feature--item">
+              <div class="features--img features--img-multiclient"></div>
+              <div class="features--txt">
+                <strong>Multi-client Ethereum backend</strong>
+                <p>Geth and Parity—the most popular clients, both for robustness</p>
+              </div>
+            </li>
+
+            <li class="col feature--item">
+              <div class="features--img features--img-private"></div>
+              <div class="features--txt">
+                <strong>Private Installations Available</strong>
+                <p>Permissioned private infrastructure can be set up for your organization</p>
+              </div>
+            </li>
+          </ul>
+      </div>
+    </div>
+
+    <!-- HowTo -->
+    <a name="how-to"></a>
+
+    <div class="bg-blue how-to">
+      <div class="container-fluid how-to--bg">
+      </div>
+      <div class="how-to--text">
+        <h3 class="title">Get Started</h3>
+        <p class="subtitle">Start using fazeZERO<sup>TM</sup> in a few easy steps!</p>
+        <ol class="how-to--list">
+          <li class="col steps">
+            <h4 class="step"><a href="register.html" target="_blank">Register</a> for an fazeZERO<sup>TM</sup> Access Token.</h4>
+            <p class="step">It's an easy signup to get your own access token.</p>
+          </li>
+          <li class="col steps">
+            <h4 class="step">Choose a network.</h4>
+            <p class="step">Use one of these test or production fazeZERO<sup>TM</sup> endpoints as your Ethereum client provider.</p>
+            <p class="step">Add your Access Token to the end of the URL.</p>
+            <p class="step">
+              <table class="step networks">
+                <thead>
+                  <tr>
+                    <th>Network</th>
+                    <th>Description</th>
+                    <th>URL</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Mainnet</td>
+                    <td>production network</td>
+                    <td><a href="https://mainnet.fazeZERO.io/">https://mainnet.fazeZERO.io</a></td>
+                  </tr>
+                  <tr>
+                    <td>Ropsten</td>
+                    <td>test network</td>
+                    <td><a href="https://ropsten.fazeZERO.io/">https://ropsten.fazeZERO.io</a></td>
+                  </tr>
+                  <tr>
+                    <td>fazeZEROnet</td>
+                    <td><a href="https://explorer.fazeZEROnet.io/">test network</a></td>
+                    <td><a href="https://fazeZEROnet.fazeZERO.io/">https://fazeZEROnet.fazeZERO.io</a></td>
+                  </tr>
+                  <tr>
+                    <td>Kovan</td>
+                    <td>test network</td>
+                    <td><a href="https://kovan.fazeZERO.io/">https://kovan.fazeZERO.io</a></td>
+                  </tr>
+                  <tr>
+                    <td>Rinkeby</td>
+                    <td>test network</td>
+                    <td><a href="https://rinkeby.fazeZERO.io/">https://rinkeby.fazeZERO.io</a></td>
+                  </tr>
+                  <tr>
+                    <td>IPFS</td>
+                    <td>gateway</td>
+                    <td><a href="https://rinkeby.fazeZERO.io/">https://ipfs.fazeZERO.io</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
+          </li>
+          <li class="col steps">
+            <h4 class="step">Make requests to fazeZERO<sup>TM</sup> in your dapp.</h4>
+            <p class="step"><a href="https://fazeZERO.io/docs/#supported-json-rpc-methods" target="_blank">List of Supported JSON-RPC Methods</a><br/><br/>Below is a quick command line example using CURL.</p>
+            <div class="step codeshell">
+              <code><span class="line"><span class="path">$</span> <span class="command">curl -X POST</span> <span class="slash">\</span></span>
+                <span class="line indent"><span class="command">-H</span> "Content-Type: application/json" <span class="slash">\</span></span>
+                <span class="line indent"><span class="command">--data</span> '{"jsonrpc": "2.0", "id": 1, "method": "eth_blockNumber", "params": []}' <span class="slash">\</span></span>
+                <span class="line indent option">"https://mainnet.fazeZERO.io/YOUR_ACCESS_TOKEN"</span></code>
+            </div>
+            <p class="step">The result should be something like:</p>
+            <div class="step codeshell">
+              <code><span class="line"><span class="path">$</span>
+                <span class="">{"jsonrpc": "2.0","result": "0x3ccb11", "id":1}</span></span></code>
+            </div>
+            <p class="step">where the <code>"0x3ccb11"</code> will be replaced with the block number of the most recent block on that network.</p>
+            <br/>
+            <br/>
+            <h4 class="step yellow">New! The fazeZERO<sup>TM</sup> API</h4>
+            <p class="step">Alternatively you can use the new REST-like fazeZERO<sup>TM</sup> API.</p>
+            <p class="step"><a href="http://docs.fazeZERO.apiary.io" target="_blank">View our API Docs here.</a></p>
+            <div class="step codeshell">
+              <code><span class="line">
+                <span class="option">https://api.fazeZERO.io/v1/jsonrpc/mainnet/eth_blockNumber?token=YOUR_ACCESS_TOKEN</span></span></code>
+            </div>
+            <br/>
+            <p class="step">
+              You can read more about getting started with fazeZERO<sup>TM</sup> in <a href="https://blog.fazeZERO.io/getting-started-with-fazeZERO-28e41844cc89">this blog post</a>.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <!-- end HowTo -->
+
+    <div class="container-fluid yellow-heading">
+      <div class="yellow-heading--wrapper">
+        <div class="container">
+          <h2 class="oneline">The Architecture of fazeZERO<sup>TM</sup></h2>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-gradient-blue">
+      <div class="container architecture">
+      </div>
+    </div>
+
+    <div class="bg-blue">
+      <div class="container-fluid devops">
+        <div class="devops--text">
+          <h3>
+            A fast Ethereum API for decentralized applications
+          </h3>
+          <p>
+            Running and syncing Ethereum blockchain nodes can be time-consuming and requires lots of storage.
+          </p>
+          <p>
+            Regular end-users may have a hard time keeping their clients in sync.
+          </p>
+          <h4>We take care of devops with reliable transaction processing so you can focus on your dapp.</h4>
+          <br/>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Adopters -->
+    <div class="container">
+
+      <div class="adopters">
+        <h3>fazeZero is for Everyone</h3>
+        <p class="join">JOIN THOSE ALREADY USING fazeZERO<sup>TM</sup></p>
+        <ul class="grid-4 adopters--list">
+          <li class="col">
+            <a href="https://metamask.io" target="_blank"><div class="adopters--img adopters--img-metamask"></div></a>
+          </li>
+          <li class="col">
+            <a href="https://uport.me" target="_blank"><div class="adopters--img adopters--img-uport"></div></a>
+          </li>
+          <li class="col">
+            <a href="http://truffleframework.com" target="_blank"><div class="adopters--img adopters--img-truffle"></div></a>
+          </li>
+          <li class="col">
+            <a href="https://singulardtv.com" target="_blank"><div class="adopters--img adopters--img-singular"></div></a>
+          </li>
+          <li class="col">
+            <a href="https://regis.nu" target="_blank"><div class="adopters--img adopters--img-regis"></div></a>
+          </li>
+          <li class="col">
+            <a href="https://ujomusic.com" target="_blank"><div class="adopters--img adopters--img-ujo"></div></a>
+          </li>
+          <li class="col">
+            <a href="http://btcrelay.org" target="_blank"><div class="adopters--img adopters--img-btcrelay"></div></a>
+          </li>
+          <li class="col">
+            <a href="http://www.benefactory.cc" target="_blank"><div class="adopters--img adopters--img-benefactory"></div></a>
+          </li>
+          <li class="col">
+            <a href="https://adchain.com/" target="_blank"><div class="adopters--img adopters--img-adchain"></div></a>
+          </li>
+          <li class="col">
+            <a href="http://www.oraclize.it/" target="_blank"><div class="adopters--img adopters--img-oraclize"></div></a>
+          </li>
+          <li class="col">
+            <a href="https://www.myetherwallet.com/" target="_blank"><div class="adopters--img adopters--img-myetherwallet"></div></a>
+          </li>
+          <li class="col">
+            <a href="https://www.dgx.io/" target="_blank"><div class="adopters--img adopters--img-digix"></div></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- end Adopters -->
+
+    <!-- Peering -->
+    <div class="container-fluid bg-gradient-blue-radial">
+      <div class="container peering">
+        <div class="container peering--info">
+          <h2>Worldwide Peering</h2>
+          <p>
+            Ethereum client peering can be unreliable, leading to problems with syncing and visibility of new transactions and blocks.
+          </p>
+          <p>
+           As a Source of Truth, fazeZERO<sup>TM</sup> aims to be immediately aware of new transactions and blocks.
+          </p>
+          <h4>We maintain a worldwide network of clients to have the best peering on the network.</h4>
+          <br/> <br/>
+        </div>
+        <div class="container peering--image"></div>
+      </div>
+    </div>
+    <!-- end Peering -->
+
+    <!-- Team -->
+    <div class="container-fluid bg-gradient-blue">
+      <div class="container">
+        <div class="team">
+          <h3>Team</h3>
+          <ul class="grid-3 team--list">
+            <li class="col">
+              <div class="team--img team--img-galano"></div>
+              <h4>E.G. GALANO</h4>
+              <p>Founder and Chief Infrastructure Engineer</p>
+            </li>
+            <li class="col">
+              <div class="team--img team--img-pietrzak"></div>
+              <h4>MAURYCY PIETRZAK</h4>
+              <p>Founder and Chief Software Engineer</p>
+            </li>
+            <li class="col">
+              <div class="team--img team--img-wuehler"></div>
+              <h4>MICHAEL WUEHLER</h4>
+              <p>Founder and Business Development Manager</p>
+            </li>
+            <li class="col">
+              <div class="team--img team--img-christophe"></div>
+              <h4>PAUL CHRISTOPHE</h4>
+              <p>Frontend Engineer</p>
+            </li>
+            <li class="col">
+              <div class="team--img team--img-cocchiaro"></div>
+              <h4>NICOLA COCCHIARO</h4>
+              <p>Infrastructure Engineer</p>
+            </li>
+            <li class="col">
+              <div class="team--img team--img-junge"></div>
+              <h4>HERMAN JUNGE</h4>
+              <p>Founder</p>
+            </li>
+            <li class="col">
+              <div class="team--img team--img-tu"></div>
+              <h4>ERIC TU</h4>
+              <p>Intern</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- end Team -->
+
+  </main>
+
+  <footer role="contentinfo" class="bg-gradient-blue-radial-left">
+
+    <div class="container-fluid footer">
+      <div class="container">
+        <div class="grid-3 footer-menu">
+          <ul class="grid-3--content">
+            <li class="col footer-menu--col">
+              <h3 class="footer-menu--heading">Resources</h3>
+              <ul>
+                <!--<li class="is-active">-->
+                  <!--<a href="/">Home</a>-->
+                <!--</li>-->
+                <li>
+                  <img src="app/assets/img/svg/icon-heartbeat.svg" class="svg-icon">
+                  <a href="http://status.fazeZERO.io">fazeZERO Health</a>
+                </li>
+                <li>
+                  <a href="https://fazeZERO.io/docs/">Documentation</a>
+                </li>
+                <li>
+                  <a href="http://docs.fazeZERO.apiary.io/">fazeZERO API</a>
+                </li>
+                <li>
+                  <a href="#how-to">Get Started</a>
+                </li>
+                <div class="linespace"></div>
+                <li>
+                  <a href="terms.html">Terms of Service</a>
+                </li>
+                <li>
+                  <a href="privacy.html">Privacy Policy</a>
+                </li>
+              </ul>
+            </li>
+            <li class="col footer-menu--col">
+              <h3 class="footer-menu--heading">Social</h3>
+              <ul>
+                <li>
+                  <img src="app/assets/img/svg/icon-twitter.svg" class="svg-icon">
+                  <a href="https://twitter.com/fazeZERO_io">Twitter</a>
+                </li>
+                <li>
+                  <img src="app/assets/img/svg/icon-reddit.svg" class="svg-icon">
+                  <a href="https://www.reddit.com/r/fazeZERO">Reddit</a>
+                </li>
+                <li>
+                  <img src="app/assets/img/svg/icon-medium.svg" class="svg-icon">
+                  <a href="https://blog.fazeZERO.io">Blog</a>
+                </li>
+                <li>
+                  <img src="app/assets/img/svg/icon-github.svg" class="svg-icon">
+                  <a href="https://github.com/fazeZERO">Github</a>
+                </li>
+                <li>
+                  <img src="app/assets/img/svg/icon-facebook.svg" class="svg-icon">
+                  <a href="https://www.facebook.com/fazeZEROio">Facebook</a>
+                </li>
+              </ul>
+            </li>
+            <li class="col footer-menu--col">
+              <h3 class="footer-menu--heading">Contact&nbsp;us</h3>
+              <ul>
+                <li>
+                  <img src="app/assets/img/svg/icon-envelope.svg" class="svg-icon">
+                  <a href="mailto:fazeZERO@fazeZERO.io" onclick="_gs('event', 'Email Bottom')">fazeZERO@fazeZERO.io</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-yellow">
+      <div class="grid-3 footer-imprint">
+        <div class="grid-3--content">
+          <a class="col footer-imprint--logo" href="#top">
+          </a>
+          <div class="col footer-imprint--text">
+            <p>
+              fazeZERO<sup>TM</sup> is a service of ConsenSys, a venture production studio. ConsenSys builds decentralized applications, enterprise solutions, and developer tools for blockchain ecosystems, focusing primarily on Ethereum.
+            </p>
+            <p>
+              <small>Copyright © 2017 ConsenSys Inc. All Rights Reserved. fazeZERO<sup>TM</sup> is a trademark of ConsenSys AG.</small>
+            </p>
+          </div>
+          <a href="https://consensys.net" class="col footer-imprint--consensys"></a>
+        </div>
+    </div>
+
+  </footer>
+
+  <footer class="post-footer">
+    <div class="attribution">Godzilla vector graphics by eryprihananto on <a rel="nofollow" href="https://www.vecteezy.com/">www.vecteezy.com</a></div>
+  </footer>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.3.3/require.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+     if (!window.jQuery) {
+        document.write('<script src="assets/js/jquery-1.9.1.min.js"><\/script>');
+     }
+     if (!window.jQuery) {
+        document.write('<script src="assets/js/require-2.3.3.min.js"><\/script>');
+     }
+  </script>
+  <script src="assets/js/scripts.min.js"></script>
+  <script>
+    // swap out japanese logos
+
+    $( document ).ready(function() {
+      var userLang = navigator.language || navigator.userLanguage;
+      if (userLang.includes('zh')) { // chinese
+          $('body').addClass("lang-ch");
+      }
+      if ((userLang.includes('zh-tw') || userLang.includes('zh-hk'))
+      || userLang.includes('ko')) { // must come after 'zh', taiwain, hk, korea
+          $('body').addClass("lang-tr-ch");
+      }
+    });
+  </script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-82813302-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+  <script>
+    !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+    arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+    d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+    insertBefore(d,q)}(window,document,'script','_gs');
+
+    _gs('GSN-488923-T');
+  </script>
+
+  </body>
+</html>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="2373.976 4058.877 539.741 271.134">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #c9c9c9;
+      }
+
+      .cls-3, .cls-5, .cls-7 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #c9c9c9;
+      }
+
+      .cls-4 {
+        fill: #4a4a4a;
+        font-size: 13px;
+        font-family: SourceSerifPro-Regular, Source Serif Pro;
+        letter-spacing: 0.03em;
+      }
+
+      .cls-5 {
+        stroke: #000;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#c9c9c9"/>
+    </linearGradient>
+  </defs>
+  <g id="Image" transform="translate(1371.476 286.877)">
+    <rect id="Line" class="cls-1" width="0.842" height="62.31" transform="translate(1002.5 3793.892) rotate(-90)"/>
+    <rect id="Line-2" data-name="Line" class="cls-1" width="0.842" height="62.31" transform="translate(1542.241 4022.083) rotate(90)"/>
+    <rect id="Line-3" data-name="Line" class="cls-2" width="0.842" height="37.891" transform="translate(1253.425 3907.567) rotate(-90)"/>
+    <path id="Path_68" data-name="Path 68" class="cls-3" d="M0,2.481c37.27,0,38.474,58,0,58" transform="translate(1253.425 3790.554)"/>
+    <path id="Path_70" data-name="Path 70" class="cls-3" d="M0,2.481c37.27,0,38.474,58,0,58" transform="translate(1480.773 3905.07)"/>
+    <path id="Path_69" data-name="Path 69" class="cls-3" d="M0,0C37.27,0,38.474,58,0,58" transform="translate(1064.587 3907.446) rotate(180)"/>
+    <path id="Path_71" data-name="Path 71" class="cls-3" d="M0,0C37.27,0,38.474,58,0,58" transform="translate(1291.093 4023.646) rotate(180)"/>
+    <g id="_01" data-name="01" transform="translate(1064.389 3772)">
+      <g id="Base" class="cls-3" transform="translate(0 0)">
+        <rect class="cls-6" width="189.457" height="42.102"/>
+        <rect class="cls-7" x="0.5" y="0.5" width="188.457" height="41.102"/>
+      </g>
+      <text id="Custodian" class="cls-4" transform="translate(29.471 24.003)"><tspan x="0" y="0">Custodian</tspan></text>
+    </g>
+    <g id="_02" data-name="02" transform="translate(1064.389 3829.258)">
+      <g id="Base-2" data-name="Base" class="cls-5" transform="translate(0)">
+        <rect class="cls-6" width="189.457" height="42.102"/>
+        <rect class="cls-7" x="0.5" y="0.5" width="188.457" height="41.102"/>
+      </g>
+      <text id="Fund_Administrator" data-name="Fund Administrator" class="cls-4" transform="translate(29.471 24.003)"><tspan x="0" y="0">Fund Administrator</tspan></text>
+    </g>
+    <g id="_03" data-name="03" transform="translate(1064.389 3886.516)">
+      <g id="Base-3" data-name="Base" class="cls-3" transform="translate(0)">
+        <rect class="cls-6" width="189.457" height="42.102"/>
+        <rect class="cls-7" x="0.5" y="0.5" width="188.457" height="41.102"/>
+      </g>
+      <text id="Risk_Management" data-name="Risk Management" class="cls-4" transform="translate(29.471 24.003)"><tspan x="0" y="0">Risk Management</tspan></text>
+    </g>
+    <g id="_04" data-name="04" transform="translate(1290.895 3886.516)">
+      <g id="Base-4" data-name="Base" class="cls-5" transform="translate(0)">
+        <rect class="cls-6" width="189.457" height="42.102"/>
+        <rect class="cls-7" x="0.5" y="0.5" width="188.457" height="41.102"/>
+      </g>
+      <text id="Operations_Team" data-name="Operations Team" class="cls-4" transform="translate(29.471 24.003)"><tspan x="0" y="0">Operations Team</tspan></text>
+    </g>
+    <g id="_05" data-name="05" transform="translate(1290.895 3943.774)">
+      <g id="Base-5" data-name="Base" class="cls-3" transform="translate(0)">
+        <rect class="cls-6" width="189.457" height="42.102"/>
+        <rect class="cls-7" x="0.5" y="0.5" width="188.457" height="41.102"/>
+      </g>
+      <text id="Auditor" class="cls-4" transform="translate(29.471 24.003)"><tspan x="0" y="0">Auditor</tspan></text>
+    </g>
+    <g id="_06" data-name="06" transform="translate(1290.895 4001.032)">
+      <g id="Base-6" data-name="Base" class="cls-5" transform="translate(0)">
+        <rect class="cls-6" width="189.457" height="42.102"/>
+        <rect class="cls-7" x="0.5" y="0.5" width="188.457" height="41.102"/>
+      </g>
+      <text id="Trading_Desk" data-name="Trading Desk" class="cls-4" transform="translate(29.471 24.003)"><tspan x="0" y="0">Trading Desk</tspan></text>
+    </g>
+  </g>
+</svg>

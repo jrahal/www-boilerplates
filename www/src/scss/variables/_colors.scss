@@ -1,0 +1,81 @@
+$white: #fff;
+$off-white: #dedede;
+$gray-light: #b9c0d5;
+$gray: #5c606a;
+
+$yellow-light: #efdf77; // Button, overlayBG
+// $headings_yellow: '#dfc519';
+//
+// // Blue
+$blue: #3c5596;
+
+$blue-mid: #6378ab;
+$blue-light: #f2f5fe;
+$blue-lighter: #e9effd;
+
+$cyan: #31bdf7;
+
+$headings-blue: $blue;
+
+$code-shell-color: #3d3d3d;
+
+
+
+// $gradient Team
+// Center #e9eef9
+// to #b5c9f6
+
+
+//
+
+%bg-blue {
+  background: $blue;
+  h1,
+  h2 {
+    color: $white;
+  }
+}
+
+%bg-blue-lighter {
+  background: $blue-lighter;
+
+  * {
+    color: $blue;
+  }
+}
+
+%bg-yellow {
+  background: $yellow-light;
+  color: $headings-blue;
+}
+
+%bg-gradient-blue {
+  background: linear-gradient($white, $blue-lighter);
+}
+
+%border-left-yellow {
+  border-left: 2px solid $yellow-light;
+  margin-left: 25px;
+  padding-left: 3px;
+  padding-top: 0;
+}
+
+%number-circle-yellow {
+  color: $blue;
+  font-size: 14px;
+  width: 36px;
+  height: 36px;
+  border: 2px solid $yellow-light;
+  line-height: 34px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px 15px;
+  margin-left: -25px;
+  margin-top: 0;
+  background-color: $yellow-light;
+}
+
+.yellow {
+  color: $yellow-light;
+}

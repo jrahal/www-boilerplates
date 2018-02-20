@@ -1,0 +1,43 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "dist",
+    "rewrites": [
+      {"source": "/sitemap.txt", "function": "generateSitemap"},
+      {"source": "/404", "function": "notFoundError"},
+      {
+        "source": "/worker-basic.min.js",
+        "destination": "/ngsw-worker.js"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "/",
+        "headers": [
+          {
+            "key": "Link",
+            "value": "</admin.module.f50c7214b100be70e04b.chunk.js>;rel=preload;as=script,</inline.f0c59aff53005a1b2429.bundle.js>;rel=preload;as=script,</main.c18722e2c864bb7e09e9.bundle.js>;rel=preload;as=script,</styles.1b9bd52fa59f4f607404.bundle.css>;rel=preload;as=style,</webfont.js>;rel=preload;as=script,"
+          }
+        ]
+      },
+      {
+        "source": "**/*.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=14400"
+          }
+        ]
+      }
+    ]
+  },
+  "functions": {
+    "predeploy": "npm --prefix functions run build"
+  }
+}

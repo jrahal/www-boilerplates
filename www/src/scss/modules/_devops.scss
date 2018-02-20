@@ -1,0 +1,39 @@
+.devops {
+  color: $white;
+  position: relative;
+  @include clearfix();
+
+  background: url('../img/svg/bg-city.svg');
+  background-opacity: .2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-position: 0 0;
+
+  p {
+    @extend %text-on-blue;
+  }
+
+
+  h3 {
+    @extend %heading-yellow;
+    padding-bottom: 1em;
+    margin-top: 1em;
+  }
+
+  h4 {
+    @extend %thin-on-blue;
+    margin-bottom: 1em;
+  }
+
+  .devops--text {
+    //padding-left: 3%;
+    //padding-right: 3%;
+    padding: 1em 3% 1.5em;
+    @include breakpoint(480px) {
+      width: 45%;
+      float: right;
+      margin-right: 5%;
+    }
+  }
+}

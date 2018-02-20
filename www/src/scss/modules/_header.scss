@@ -1,0 +1,145 @@
+.header {
+
+  &.container{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .header--logo {
+    //width: 55%;
+    margin: 2em auto 0;
+    //.header--logo--svg {}
+
+    .logo {
+      display: block;
+      .lang-ch &,
+      .lang-tr-ch & {
+        display: none;
+      }
+    }
+    .logo-chinese {
+      display: none;
+      .lang-ch & {
+        display: block;
+      }
+    }
+    .logo-trad-chinese {
+      display: none;
+      .lang-tr-ch & {
+        display: block;
+      }
+    }
+  }
+
+  .header--branding {
+    @extend .godzilla;
+    text-align: center;
+    background-size: contain;
+    min-height: 400px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background-position: 95% top;
+
+    &.registration { // registration page
+      background-image: none;
+      text-align: center;
+      background-size: contain;
+      min-height: 100px;
+      margin-top: 0;
+      margin-bottom: 1em;
+      background-position: 95% top;
+
+      .header--logo {
+        margin: 0 auto;
+        svg {
+          height: 100px;
+          margin: 0 auto;
+
+          @include breakpoint(760px) {
+            margin-left: 0;
+          }
+        }
+      }
+      h1 {
+        text-align: center;
+
+        @include breakpoint(760px) {
+          text-align: left;
+        }
+        font-size: 1.5em;
+        margin-left: 10px;
+        padding-top: 10px;
+        letter-spacing: 1px;
+      }
+    }
+
+    >h1 {
+      color: $white;
+      font-size: 3.2em;
+      margin-bottom: .2em;
+    }
+
+    .header--mission {
+      color: $gray-light;
+      font-size: 1.2em;
+      font-weight: $font-weight-light;
+      max-width: 90%;
+      margin: 0 auto;
+      line-height: 1.8em;
+
+      @include breakpoint(600px) {
+        max-width: 55%;
+      }
+    }
+
+    .btn.btn-lg {
+      margin: 1em 0 1em;
+      color: $blue;
+      border-radius: 2em;
+      text-transform: uppercase;
+      background-color: $yellow-light;
+      border-color: $yellow-light;
+      padding: 1em 2em;
+      font-size: 1em;
+
+      &:hover {
+        background-color: $cyan;
+        border-color: $cyan;
+        color: $white;
+      }
+
+    }
+
+    .grid-3 .col {
+      min-width: 10em;
+      width: 50%;
+      @include breakpoint(677px) {
+        width: 33%;
+      }
+    }
+
+    .branding-stats {
+      ul {
+        list-style-type: none;
+      }
+
+      .stats-header {
+        color: $cyan;
+        white-space: nowrap;
+        font-size: 2em;
+
+        @include breakpoint(900px) {
+          font-size: 3em;
+        }
+      }
+
+      .stats-label {
+        text-transform: uppercase;
+        color: $white;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 0.8em;
+      }
+    }
+  }
+}

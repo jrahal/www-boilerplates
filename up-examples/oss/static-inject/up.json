@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "type": "static",
+  "inject": {
+    "head": [
+      {
+        "type": "style",
+        "value": "style.css"
+      },
+      {
+        "type": "segment",
+        "value": "API KEY HERE"
+      },
+      {
+        "type": "inline script",
+        "file": "src/config.js"
+      }
+    ],
+    "body": [
+      {
+        "type": "script",
+        "value": "src/app.js"
+      }
+    ]
+  }
+}
